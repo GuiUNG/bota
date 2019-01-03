@@ -1,8 +1,8 @@
+const PORT = process.env.PORT || 5000
 const Discord = require("discord.js"); 
 const client = new Discord.Client(); 
 const config = require("./config.json"); 
 const fs = require("fs");
-const PORT = process.env.PORT || 5000
 
 client.on('guildMemberAdd', member => {
   // Localiza um canal de texto para enviar a msg
