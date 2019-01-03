@@ -1,0 +1,17 @@
+{
+  "name": "Rede Noxus",
+  "version": "1.0.0",
+  "description": "Um simples bot para o discord.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Katho",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "*",
+    "dotenv": "^6.0.0",
+    "enmap": "*",
+    "moment": "^2.22.0"
+  }
+}
